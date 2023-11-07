@@ -8,6 +8,7 @@
     "deploy": "npm run build && gh-pages -d dist",
     "postbuild": "cp dist/index.html dist/404.html"
   },
+  "homepage": "https://jab-urano.github.io/liff-form2/",
   "dependencies": {
     "@line/liff": "2.22.4",
     "react": "18.2.0",
