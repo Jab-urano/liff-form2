@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "cross-env PUBLIC_URL=/liff-form2 react-scripts build",
+    "build": "vite build",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist",
     "postbuild": "cp dist/index.html dist/404.html"
